@@ -1,0 +1,74 @@
+body {
+    /* text-align: ; */
+    background: #545151;
+    list-style-type: none;
+    color: #f2ebeb;
+    text-decoration: none;
+    background-image:  url("images/Wikipedia.jpeg");
+    background-size: 1450px;
+    background-position: center;
+    background-repeat: no-repeat; 
+    
+  }
+
+  img {
+    top: 25px;
+    left: 0px;
+    width: 150px;
+    height: 100px;
+  }
+  
+  h1.first {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 50px;
+    color: rgb(214, 71, 71);
+  }
+  h1.second {
+    color: rgb(37, 34, 34);  
+  }
+  h2 {
+    color:  rgb(19, 126, 16);
+  }
+  h1.PC{
+    position: absolute;
+    top: 440px;
+    right: 0;
+    margin-right: 132px;
+  }
+  a.my-class {
+    position: absolute;
+    top: 75px;
+    right: 0;
+    margin-right: 105px;
+  }
+  a.PC {
+    position: absolute;
+    top: 450px;
+    right: 0;
+    margin-right: 105px;
+  }
+  .rob{
+    position: relative; 
+    left: 50%; bottom: 0; 
+    transform: translateX(-50%); 
+    text-align: center; 
+    margin-top: 110px;
+    width: 75px;
+    height: 50px;
+}
+  .credits { 
+    position: fixed; 
+    left: 50%; bottom: 0; 
+    transform: translateX(-50%); 
+    text-align: center; 
+  }
+  
+
+
+ 
+ 
+
+ 
+  
