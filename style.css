@@ -1,15 +1,16 @@
 body {
-    /* text-align: ; */
-    background: #545151;
-    list-style-type: none;
-    color: #f2ebeb;
-    text-decoration: none;
-    background-image:  url("images/Wikipedia.jpeg");
-    background-size: 1450px;
-    background-position: center;
+    background-color: #545151; /* Fallback color */
+    background-image: url("images/Wikipedia.jpeg");
+
+    background-size: cover; 
+    background-position: center; 
     background-repeat: no-repeat; 
-    
-  }
+    background-attachment: fixed; 
+
+    color: #f2ebeb;
+    list-style-type: none;
+    text-decoration: none;
+}
 
   img {
     top: 25px;
